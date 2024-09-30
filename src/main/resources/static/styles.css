@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f3f5;
+    color: #34495e;
+    margin: 0;
+    padding: 0;
+}
+.map {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px; 
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#traffic-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#traffic-table th, #traffic-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#traffic-table th {
+    background-color: #3498db;
+    color: white;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
